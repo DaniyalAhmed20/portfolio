@@ -1,0 +1,84 @@
+@media only screen and (min-width:300px) and (max-width:767px){
+
+.part{
+    width: 100%;
+}
+
+    .header_section {
+        display: none;
+    }
+
+
+    .about-btn {
+        width: 60%;
+    }
+    .about-right.part img {
+        width: 100%;
+    }
+
+    .service-box {
+        width: 100%;
+        margin-bottom: 85px;
+    }
+    .service-box .service-img-icon img {
+        left: 32%;
+    }
+    .service-btn {
+        width: 50%;
+        margin-top: -39px !important;
+    }
+
+    .fourth-sect.sect {
+        margin-top: 50px;
+    }
+    .fourth-left-part.part {
+        width: 100%;
+    }
+    .fourth-right-part.part {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .fourth-head h1 {
+        font-size: 25px;
+    }
+    .fourth-btn {
+        width: 50%;
+        margin: auto;
+    }
+    .contact-left-part .part {
+        width: 50%;
+    }
+    .contact-head h1 {
+        font-size: 25px;
+    }
+    .contact-box p {
+        line-height: 19px;
+    }
+    .contact-send-btn {
+        width: 50%;
+        margin: auto;
+    }
+    .contact-right-part.part {
+        width: 100%;
+    }
+    .contact-right-part.part img {
+        margin-top: 20px;
+    }
+    .contact-left-part button {
+        width: 50%;
+    }
+    .footer-section {
+        height: auto;
+    }
+    .footer-logo {
+        width: 19%;
+        margin-top: 14px;
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+    .footer-section p {
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
+}

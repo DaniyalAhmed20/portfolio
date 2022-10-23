@@ -1,0 +1,342 @@
+@media only screen and (min-width:300px) and (max-width:767px){
+    html {
+        overflow-x: hidden !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+/* header start here  */
+.header-top {
+    display: none;
+}
+.header-bottom {
+    display: none;
+}
+
+
+.topnav {
+    display: block;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgb(3 3 6 / 47%);
+    position: relative;
+    /* height: 52px; */
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    color: #060606 !important;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+div#myLinks a i {
+    margin-right: 8px;
+    margin-left: 6px;
+}
+.topnav a.icon {
+    background: white;
+    color: #171e44 !important;
+    box-shadow: 0px 0px 10px 2px #001e36;
+    border-radius: 9px;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    padding: 2px 11px;
+    right: 15px;
+    top: 13px;
+}
+a.active {
+    padding: 4px 0px 6px 12px;
+    /* padding: 0; */
+}
+.topnav a img {
+    width: 30%;
+    border-radius: 15px;
+}
+.mobile-menu-phone-whatsapp-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-menu-phone-whatsapp-btn a img {
+    width: 100%;
+    padding: 0 10px;
+}
+
+
+
+/* header end here  */
+/* banner section start here  */
+.row.banner-sect {
+    width: 100%;
+}
+.banner-sect h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* banner section end here  */
+/* about section start here  */
+.about-section {
+    padding: 0 20px;
+}
+.about-left {
+    width: 100%;
+}
+.about-right {
+    width: 100%;
+}
+.about-left img {
+    width: 100%;
+}
+/* about section end here  */
+
+/* third section start here  */
+.third-section {
+    height: 150px;
+}
+.third-section h1 {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+/* third section end here  */
+
+
+/* fourth section start here  */
+.fourth-left {
+    width: 100%;
+}
+.f-box img {
+    width: 100% !important;
+}
+.f-box-icon {
+    width: 41 !important%;
+    height: 50px;
+}
+.fourth-right {
+    width: 100%;
+}
+/* fourth section end here  */
+
+/* fivth section start here  */
+.fiv-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* fivth section end here  */
+/* sixth section start here  */
+.sixth-left {
+    width: 100%;
+}
+.sixth-right {
+    width: 100%;
+}
+
+/* sixth section end here  */
+/* footer section start here  */
+.foot-left-side {
+    width: 100%;
+}
+.foot-right-side {
+    width: 100%;
+}
+.quick-links {
+    width: 48%;
+}
+.contact-info {
+    width: 52%;
+}
+.foot-right-side h2 {
+    font-size: 21px;
+}
+.foot-right-side ul li {
+    font-size: 14px;
+}
+/* footer section end here  */
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+    html {
+        overflow-x: hidden !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+/* header start here  */
+.header-top {
+    display: none;
+}
+.header-bottom {
+    display: none;
+}
+
+.topnav {
+    display: block;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgb(3 3 6 / 47%);
+    position: relative;
+    /* height: 52px; */
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    color: #060606 !important;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+div#myLinks a i {
+    margin-right: 8px;
+    margin-left: 6px;
+}
+.topnav a.icon {
+    background: white;
+    color: #171e44 !important;
+    box-shadow: 0px 0px 10px 2px #001e36;
+    border-radius: 9px;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    padding: 2px 11px;
+    right: 15px;
+    top: 13px;
+}
+a.active {
+    padding: 4px 0px 6px 12px;
+    /* padding: 0; */
+}
+.topnav a img {
+    width: 17%;
+    /* background: white; */
+    border-radius: 15px;
+    /* padding: 4px 9px; */
+}
+
+
+
+
+
+/* header end here  */
+/* banner section start here  */
+.row.banner-sect {
+    width: 100%;
+}
+.banner-sect h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* banner section end here  */
+/* about section start here  */
+.about-section {
+    padding: 0 20px;
+}
+.about-right {
+    padding-right: 12px;
+}
+.about-right h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.about-right p {
+    margin-bottom: 7px;
+}
+.about-left img {
+    width: 96%;
+}
+/* about section end here  */
+
+/* third section start here  */
+.third-section {
+    height: 260px;
+}
+.third-section h1 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+/* third section end here  */
+
+
+/* fourth section start here  */
+.fourth-left {
+    width: 50%;
+}
+.f-box img {
+    width: 100% !important;
+}
+.f-box-icon {
+    width: 41 !important%;
+    height: 50px;
+}
+.fourth-right {
+    width: 50%;
+}
+.fourth-right h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.fourth-right p {
+    margin-bottom: 10px;
+}
+/* fourth section end here  */
+
+/* fivth section start here  */
+.fiv-box {
+    width: 32%;
+    margin-bottom: 20px;
+    padding: 20PX 10px;
+}
+.fiv-box img {
+    width: 30%;
+}
+/* fivth section end here  */
+/* sixth section start here  */
+.client-id {
+    width: 63%;
+}
+/* sixth section end here  */
+/* footer section start here  */
+.foot-left-side {
+    width: 100%;
+}
+.foot-right-side {
+    width: 100%;
+}
+.quick-links {
+    width: 48%;
+}
+.contact-info {
+    width: 52%;
+}
+.foot-right-side h2 {
+    font-size: 21px;
+}
+.foot-right-side ul li {
+    font-size: 14px;
+}
+/* footer section end here  */
+
+}
+
+
+
+    
+/* } */

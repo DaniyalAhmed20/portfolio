@@ -1,0 +1,795 @@
+/* mobile responvice start from here  */
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+    html {
+        overflow-x: hidden !important;
+    }
+    /* header css start here  */
+    .dropdown-content a {
+        color: white !important;
+    }
+    .dropdown-content {
+        display: none;
+        position: unset;
+        margin-left: 50px;
+        background: white !important;
+    }
+    .topnav {
+        display: block;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 0px 8px 16px 0px rgb(3 3 6 / 47%);
+        position: relative;
+        /* height: 52px; */
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .topnav a {
+        color: #060606 !important;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    div#myLinks a i {
+        margin-right: 8px;
+        margin-left: 6px;
+    }
+    .topnav a.icon {
+        background: white;
+        color: #171e44 !important;
+        box-shadow: 0px 0px 10px 2px #001e36;
+        border-radius: 9px;
+        display: block;
+        position: absolute;
+        font-size: 25px;
+        padding: 2px 11px;
+        right: 15px;
+        top: 13px;
+    }
+    a.active {
+        padding: 4px 0px 6px 12px;
+        /* padding: 0; */
+    }
+    .topnav a img {
+        width: 80%;
+        /* background: white; */
+        border-radius: 15px;
+        padding: 4px 9px;
+    }
+    .mobile-menu-phone-whatsapp-btn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-menu-phone-whatsapp-btn a img {
+        width: 100%;
+        padding: 0 10px;
+    }
+    /* header-top  start here */
+    header.header-top {
+        display: none;
+    }
+    /* header-bootom  start here */
+    .header-bottom {
+        display: none !important;
+    }
+    /* header css end here  */
+    /* banner css start here  */
+    .main-banner {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .row.main-banner-sect {
+        margin-top: 0;
+    }
+    .banner-right {
+        width: 100%;
+    }
+    .banner-right h1 {
+        font-size: 26px;
+    }
+    .banner-btns {
+        margin-bottom: 50px;
+    }
+    .banner-btns .chat-whatsapp-btn {
+        width: 50%;
+    }
+    .banner-left {
+        width: 100%;
+    }
+    .banner-left .banner-form {
+        width: 100%;
+    }
+    /* banner css end here  */
+    /* about section/ second section css start here  */
+    .about-sect h1 {
+        font-size: 40px;
+        padding: 0 10px;
+    }
+    .row.about-sect {
+        padding: 0 15px;
+    }
+    .about-left {
+        width: 100%;
+    }
+    .about-left h2 {
+        font-size: 30px;
+    }
+    .about-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .about-right img {
+        width: 100%;
+    }
+    /* about section/ second section css end here  */
+    /* service by us section start from here  */
+    .servicebyus-sect h1 {
+        font-size: 40px;
+    }
+    .servicebyus-sect .one-service img {
+        width: 100%;
+    }
+    .servicebyus-sect .one-service p {
+        bottom: -9%;
+        left: 3%;
+        font-size: 10px;
+        width: 95%;
+        padding: 7px 0;
+    }
+    .service-by-us-btns .order-whatsapp-btn {
+        width: 50%;
+    }
+    /* service by us section end from here  */
+    /* easy to start / mobile section css start here  */
+    .mobile-cont h1 {
+        font-size: 40px;
+    }
+    .mobile-left {
+        display: none;
+    }
+    .mobile-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /* easy to start / mobile section css end here  */
+    /* guarantees section start here  */
+    .guarantees-head h1 {
+        font-size: 40px;
+    }
+    .free-extras-white-bg {
+        position: unset;
+        margin-left: -6px;
+    }
+    a.button1.btn-primary-yellow.large {
+        padding: 13px 88px;
+    }
+    .line-extras-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* guarantees section end here  */
+    /* experts section css start here  */
+    .expert-section {
+        margin-bottom: 50px;
+    }
+    div#experts h1 span {
+        font-size: 40px;
+    }
+    .col-md-4.img-id {
+        width: 34%;
+    }
+    .col-md-8.r-name {
+        padding: 0px 0px;
+        width: 60%;
+        margin-left: 0px;
+    }
+    .centr-part p {
+        font-size: 16px;
+    }
+    .srh-part {
+        padding-top: 5px;
+        margin-bottom: -17px;
+    }
+    .s-rate {
+        width: 50% !important;
+    }
+    .col-md-5.btn-hire {
+        width: 100%;
+    }
+    /* experts section css end here  */
+    /* reviews section start here  */
+    .top-heading.text-center h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    /* reviews section end here  */
+    /* support section start here  */
+    .support-section {
+        height: auto;
+    }
+    .support-title p {
+        font-size: 40px;
+    }
+    .support-title span {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .support-title .subtitle {
+        width: 100%;
+        margin-top: 120px;
+    }
+    .support-container__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .experience-section {
+        padding: 0 12px;
+    }
+    .icon img {
+        width: 80%;
+        margin-top: 0;
+        margin-left: 7px;
+    }
+    .support-section .msg-btn-block {
+        margin-bottom: 30px;
+    }
+    /* support section end here  */
+    /* sample section start here  */
+    .sample-sect h1 {
+        font-size: 40px;
+    }
+    .one-sample h5 {
+        font-size: 13px;
+    }
+    .one-sample h5 i {
+        font-size: 25px;
+    }
+    .one-sample h6 {
+        font-size: 12px;
+    }
+    .one-sample a {
+        width: 90%;
+        font-size: 12px;
+        padding: 6px 0;
+        margin-top: 0;
+    }
+    /* sample section end here  */
+    /* contact section start here  */
+    .contact-sect .cntct-left {
+        width: 100%;
+    }
+    .contact-sect .cntct-right {
+        width: 100%;
+    }
+    .contact-sect .cntct-left a {
+        padding: 7px 0;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .cntct-right button {
+        border-radius: 10px 10px 10px 10px;
+        height: 37px;
+        font-size: 14px;
+    }
+    /* contact section end here  */
+    /* footer section start here  */
+
+    .foot-left {
+        width: 100%;
+    }
+    .foot-left img {
+        width: 100%;
+    }
+    .foot-right {
+        width: 100%;
+    }
+    .foot-services {
+        width: 33%;
+    }
+    .foot-links {
+        width: 30%;
+    }
+    .foot-contact {
+        width: 35%;
+    }
+.foot-bott-center {
+    display: none;
+}
+.foot-bott-left {
+    width: 100%;
+}
+.foot-bott-right {
+    width: 100%;
+    margin-top: 7px;
+}
+    /* footer section end here  */
+    /* reviews page css start here  */
+    .leave-reply-left-part {
+        width: 100%;
+    }
+    .leave-reply-right-part {
+        width: 100%;
+    }
+    .review-inner-content .leave-reply button {
+        padding: 0 30px;
+    }
+    /* reviews page css end here  */
+    /* thankyou reviews start here  */
+    .popup .thank-you {
+        width: 85%;
+    }
+    p.review-submitted {
+        font-size: 13px;
+    }
+    /* thankyou reviews end here  */
+    /* contact page css start from here  */
+    .row.cntct-page-form-sect {
+        padding: 0 22px;
+    }
+    .cntct-page-left-part {
+        width: 100%;
+    }
+    .cntct-page-right-part {
+        width: 100%;
+    }
+    /* contact page css end from here  */
+    /* thankyou page css start here  */
+    .thank-sect {
+        width: 90%;
+        padding: 35px;
+        margin-top: 150px;
+    }
+    img.thank-icon {
+        width: 32%;
+        top: -70%;
+        left: 35%;
+    }
+    .thank-head h1 {
+        font-size: 40px;
+    }
+    .btn-whatsapp-chatnow {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    a.btn-whatsapp {
+        padding: 7px 2px;
+        font-size: 13px;
+        width: 50%;
+    }
+    a.btn-whatsapp i {
+        font-size: 18px;
+    }
+    a.btn-chatnow {
+        padding: 8px 0px;
+        font-size: 13px;
+        width: 50%;
+        margin: 0 !important;
+    }
+    a.btn-chatnow i {
+        font-size: 16px;
+    }
+    /* thankyou page css end here  */
+    
+    /*order page css start here */
+    .row.order-head {
+    width: 100%;
+}
+.order-form .order-form-sect {
+    width: 100%;
+}
+      /*order page css end here */  
+    
+    
+    
+    
+    /* left side fixed btn of calling, whatsapp and form. start here  */
+    .floating_wrap {
+        display: none;
+    }
+    /* left side fixed btn of calling, whatsapp and form. end here  */
+    
+    
+/*float chat , whatsapp btn on footer start here */
+a.float {
+    display: none;
+}
+
+
+
+
+ .fixed-button-bottom {
+    display: flex;
+    /* border: 1px solid; */
+    box-shadow: 0 4px 16px rgb(0 0 0);
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.fixed-button-bottom a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 9px 0 !important;
+    margin: 0 7px;
+    background: #000;
+    color: white;
+}
+
+.bg-theme {
+    background-color: #122b54;
+    color: #ffffff;
+}
+
+
+.w-50 {
+    width: 50% !important;
+}
+
+.whatsapp-service {
+    background: #51b27e !important;
+    color: #ffffff;
+}
+a.btn.whatsapp-service i {
+    margin-right: 8px;
+    font-size: 28px;
+}
+a.btn.bg-theme {
+    margin: -1px;
+}
+.p-3 {
+    padding: 1.2rem!important;
+}
+
+/*float chat , whatsapp btn on footer end here */
+
+    
+    
+    
+    
+}
+
+
+/* mobile responvice end from here  */
+
+
+/* iphone xr start here  */
+
+@media only screen and (width:414px) {
+    .free-extras-white-bg {
+        margin-left: 7px;
+    }
+    .experience-section {
+        margin-left: 28px;
+    }
+}
+
+
+/* iphone xr end here  */
+
+
+/* iphone 12 pro start here  */
+
+@media only screen and (width:390px) {
+    .free-extras-white-bg {
+        margin-left: 0px;
+    }
+    .experience-section {
+        margin-left: 13px;
+    }
+}
+
+
+/* iphone 12 pro end here  */
+
+
+/* iphone 12 pro max start here  */
+
+@media only screen and (min-width:428px) and (max-width:460px) {
+    .free-extras-white-bg {
+        margin-left: 13px;
+    }
+    .experience-section {
+        margin-left: 32px;
+    }
+}
+
+
+/* iphone 12 pro max end here  */
+
+@media only screen and (min-width:450px) and (max-width:470px) {}
+
+
+/* tablet responsive start here  */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    /* header css start here  */
+    html {
+        overflow-x: hidden !important;
+    }
+    /* header css start here  */
+    .dropdown-content a {
+        color: white !important;
+    }
+    .dropdown-content {
+        display: none;
+        position: unset;
+        margin-left: 50px;
+        background: white !important;
+    }
+    .topnav {
+        display: block;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 0px 8px 16px 0px rgb(3 3 6 / 47%);
+        position: relative;
+        /* height: 52px; */
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .topnav a {
+        color: #060606 !important;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    div#myLinks a i {
+        margin-right: 8px;
+        margin-left: 6px;
+    }
+    .topnav a.icon {
+        background: white;
+        color: #171e44 !important;
+        box-shadow: 0px 0px 10px 2px #001e36;
+        border-radius: 9px;
+        display: block;
+        position: absolute;
+        font-size: 25px;
+        padding: 2px 11px;
+        right: 15px;
+        top: 13px;
+    }
+    a.active {
+        padding: 4px 0px 6px 12px;
+        /* padding: 0; */
+    }
+    .topnav a img {
+        width: 80%;
+        /* background: white; */
+        border-radius: 15px;
+        padding: 4px 9px;
+    }
+    .mobile-menu-phone-whatsapp-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-menu-phone-whatsapp-btn a img {
+        width: 100%;
+        padding: 0 10px;
+    }
+    /* header-top css start here  */
+    header.header-top {
+        display: none;
+    }
+    /* header-bootom  start here */
+    .header-bottom {
+        display: none !important;
+    }
+    /* header css end here  */
+    /* banner css start here  */
+    .main-banner {
+        height: auto;
+    }
+    .row.main-banner-sect {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .banner-left .banner-form {
+        width: 90%;
+        margin-right: 19px;
+    }
+    .banner-btns .chat-whatsapp-btn {
+        width: 47%;
+    }
+    /* banner css end here  */
+    /* about section start here  */
+    .about-sect h1 {
+        font-size: 40px;
+    }
+    .about-left {
+        width: 50%;
+    }
+    .about-left h2 {
+        font-size: 30px;
+    }
+    .about-right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .about-right img {
+        width: 100%;
+    }
+    /* about section end here  */
+    /* service by us section start from here  */
+    .servicebyus-sect h1 {
+        font-size: 40px;
+    }
+    .servicebyus-sect .one-service img {
+        width: 100%;
+    }
+    .servicebyus-sect .one-service p {
+        bottom: -9%;
+        left: 3%;
+        font-size: 16px;
+        width: 95%;
+        padding: 7px 0;
+    }
+    .service-by-us-btns .order-whatsapp-btn {
+        width: 34%;
+    }
+    /* service by us section end from here  */
+    /* easy to start / mobile section css start here  */
+    .mobile-cont h1 {
+        font-size: 40px;
+    }
+    .row.mobile-sect {
+        padding: 0 10px;
+    }
+    .mobile-left {
+        width: 50%;
+    }
+    .mobile-left img {
+        width: 100%;
+    }
+    .mobile-right {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* easy to start / mobile section css end here  */
+    /* guarantees section start here  */
+    .guarantees-head h1 {
+        font-size: 40px;
+    }
+    .guarantees-block-content {
+        width: 59%;
+    }
+    .free-extras-white-bg {
+        right: -168px;
+    }
+    .line-extras-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* guarantees section end here  */
+    /* experts section css start here  */
+    div#experts h1 span {
+        font-size: 40px;
+    }
+    .col-md-4.img-id {
+        width: 34%;
+    }
+    .srh-part {
+        padding-top: 5px;
+        margin-bottom: -17px;
+    }
+    .s-rate {
+        width: 50% !important;
+    }
+    .col-md-5.btn-hire {
+        width: 100%;
+    }
+    .slick-prev {
+        left: -21px !important;
+    }
+    .slick-prev,
+    .slick-next {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .slick-next {
+        right: -21px !important;
+    }
+    /* experts section css end here  */
+    /* reviews section start here  */
+    .top-heading.text-center h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    /* reviews section end here  */
+    /* support section start here  */
+    .support-section {
+        height: auto;
+    }
+    .support-title p {
+        font-size: 50px;
+    }
+    .support-title span {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .support-title .subtitle {
+        width: 78%;
+        margin-top: 61px;
+    }
+    .experience-section {
+        padding: 0 12px;
+        margin-left: 22px;
+    }
+    .icon img {
+        width: 80%;
+        margin-top: 0;
+        margin-left: 7px;
+    }
+    .support-section .msg-btn-block {
+        margin-bottom: 30px;
+    }
+    /* support section end here  */
+    /* contact section css start here  */
+    .contact-sect .cntct-left a {
+        width: 40%;
+    }
+    /* contact section css end here  */
+    /* footer css start here  */
+    .foot-services {
+        width: 35%;
+    }
+    .foot-links {
+        width: 25%;
+    }
+    .foot-contact {
+        width: 34%;
+    }
+    /* footer css end here  */
+    /* thankyou page css start here  */
+    .thank-sect {
+        width: 80%;
+        margin-top: 131px;
+    }
+    img.thank-icon {
+        width: 22%;
+    }
+    /* thankyou page css end here  */
+    /* thankyou poppop of reviews start here  */
+    .popup .thank-you {
+        width: 70%;
+    }
+    /* thankyou poppop of reviews end here  */
+    
+    
+    /*order page css start here */
+    .order-form .order-form-sect {
+    width: 70%;
+}
+     /*order page css end here */
+}
+
+
+/* tablet responsive end here  */

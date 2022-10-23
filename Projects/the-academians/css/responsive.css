@@ -1,0 +1,1153 @@
+/* mobile responvice start from here  */
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+    /* body {
+        overflow-x: hidden !important;
+    } */
+    html {
+        overflow-x: hidden !important;
+    }
+    
+    
+.dropdown-content a {
+    color: white !important;
+}
+.dropdown-content {
+    display: none;
+    position: unset;
+    margin-left: 50px;
+}
+    .topnav {
+    display: block;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #171e44;
+    box-shadow: 0px 8px 16px 0px rgb(3 3 6 / 47%);
+    position: relative;
+    /* height: 52px; */
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+div#myLinks a i {
+    margin-right: 8px;
+    margin-left: 6px;
+}
+.topnav a.icon {
+    background: white;
+    color: #171e44 !important;
+    border-radius: 9px;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    padding: 4px 13px;
+    right: 8px;
+    top: 8px;
+}
+a.active {
+    padding: 4px 0px 6px 12px;
+    /* padding: 0; */
+}
+.topnav a img {
+    width: 70%;
+    /*background: white;*/
+    border-radius: 15px;
+    padding: 4px 9px;
+}
+/*.topnav a:hover {*/
+/*  background-color: #ddd;*/
+/*  color: black;*/
+/*}*/
+
+/*.active {*/
+/*  background-color: #04AA6D;*/
+/*  color: white;*/
+/*}*/
+.mobile-menu-btn {
+    display: flex;
+    justify-content: space-around;
+}
+.mobile-menu-btn .msg-btn-greendot {
+    width: 45%;
+}
+.mobile-menu-btn a.expert-banner-btn {
+    font-size: 11px;
+    padding: 10px 32px;
+}
+ .mobile-menu-btn .whatsapp-theme {
+    width: 45%;
+    /* margin-top: 13px; */
+    font-size: 12px;
+    margin-left: 0px;
+    padding: 4px 14px !important;
+}   
+    
+    
+    /* header css start here  */
+    .fixed-header {
+    display: none;
+}
+    .head-btn {
+        display: none;
+    }
+    .logo {
+        width: 70%;
+    }
+    nav.nav-list {
+        display: none;
+    }
+    /* header css end here  */
+    /* banner css start here   */
+.type span {
+    width: 100%;
+    height: 4.2em;
+    animation: none;
+}
+    .banner-section {
+        height: auto;
+        padding-top: 0;
+    }
+    .banner-left-heading {
+        width: 100%;
+    }
+    .main-banner-btn {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+.msg-btn-greendot {
+    width: 50%;
+}
+a.expert-banner-btn {
+    font-size: 11px;
+    padding: 10px 11px;
+}
+a.expert-banner-btn i {
+    font-size: 14px;
+}
+.whatsapp-theme {
+    width: 50%;
+    /* margin-top: 13px; */
+    font-size: 12px;
+    margin-left: 0px;
+    padding: 4px 20px;
+}
+.whatsapp-theme i {
+    font-size: 19px;
+    margin-top: 2px;
+}
+    .msg-btn-greendot::after {
+    right: 21%;
+}
+    .banner-right-form {
+        width: 100%;
+        margin-top: 50px;
+    }
+    button.btn-form {
+    padding: 4px 0;
+}
+.fld-btn a {
+    padding: 5px 15px 6px 20px;
+    margin: 0 1px;
+    font-size: 13px;
+}
+.or-box {
+    top: 4px;
+    left: 21px;
+    right: 21px;
+}
+    .bannerForm {
+        margin-bottom: 45px;
+    }
+    .banner-section .form-control {
+    width: 153% !important;
+}
+.orm-item {
+    width: 45%;
+}
+.orm-service {
+    font-size: 11px;
+
+}
+    /* banner css end here   */
+    /* second section start here */
+    .second-left-part {
+        width: 100%;
+    }
+    .second-left-part img {
+    display: none;
+}
+    .second-right-part {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .btn-expert-whatsapp-second-sect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    a.expert-btn-second-sect.icon-btn {
+    padding: 10px 8px;
+    font-size: 11px;
+}
+.second-right-part .whatsapp-theme {
+    width: 50%;
+    /* margin-top: -8px; */
+    font-size: 11px;
+    margin-left: 0px;
+    padding: 4px 20px;
+}
+.btn-expert-whatsapp-second-sect::after {
+    top: -24% !important;
+    right: 60% !important;
+}
+    /* second section end here */
+    /* team section start here  */
+    .team-left-part {
+        margin-top: 20px;
+    }
+h1.service-head {
+    font-size: 40px;
+    margin-bottom: -12px;
+}
+    .team-right-part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .team-left-part h1 {
+        font-size: 23px;
+    }
+    .service-navbar ul li {
+        font-size: 9px;
+        margin-right: 1px;
+    }
+    .one-person img {
+        width: 95%;
+    }
+.one-person h2 {
+    margin-left: 3px;
+    padding: 9px 3px;
+}
+h2.service-title {
+    width: 95%;
+}
+    /* team section end here  */
+    /* easy to step section start here  */
+    .easytostart-section {
+    margin: 0px 0 50px 0;
+}
+    .easytostart-section h1 {
+        font-size: 40px;
+    }
+    .easytostart-left-part img {
+        display: none;
+    }
+    .easytostart-right-part {
+        justify-content: center;
+    }
+    /* easy to step section end here  */
+    /* reviews section start here  */
+    .top-heading.text-center h2 {
+        font-size: 40px;
+    }
+    /* reviews section end here  */
+    /* subject section start here  */
+    section.section.bg-light h1 {
+        font-size: 40px;
+    }
+    .heading {
+        font-size: 23px;
+    }
+    /* subject section end here  */
+    
+    /*guarantees section start here */
+    .main-guarantees-block {
+    height: 1110px;
+}
+.guarantees-head h1 {
+
+    font-size: 40px;
+
+}
+.free-extras-white-bg {
+    position: unset;
+    margin-left: -5px;
+}
+a.button1.btn-primary-yellow.large {
+    padding: 13px 84px;
+}
+.line-extras-buttons {
+    display: flex;
+}
+    /*guarantees section end here */    
+    
+    /*expert section start here*/
+    div#experts h1 span {
+    font-size: 40px;
+}
+.col-md-4.img-id {
+    width: 34%;
+} 
+.col-md-8.r-name {
+    width: 70%;
+}
+.btn-hire a {
+     right: -100px; 
+
+}
+.centr-part p {
+    font-size: 16px;
+}
+.expert-section {
+    margin-bottom: 15px;
+}
+   /*expert section end here*/
+   
+    /* support section start here  */
+.support-section {
+    height: 1650px !important;
+}
+    .support-title p {
+        font-size: 41px;
+    }
+    .support-title span {
+        font-size: 29px;
+        line-height: 40px;
+    }
+.support-title .subtitle {
+    width: 330px;
+    margin-top: 117px;
+}
+    .support-container__content {
+        flex-direction: column;
+    }
+    .support-container__heading {
+        padding: 10px 0 30px 0;
+    }
+    .experience-section {
+        width: 79%;
+        margin-left: 39px !important;
+        /* margin-top: 16px !important; */
+    }
+    .icon img {
+        width: 67% !important;
+        margin-left: 8px;
+    }
+    .text {
+        margin-left: 89px;
+        margin-top: -61px;
+    }
+    .msg-btn-block::after {
+    right: 27%;
+}
+    /* support section end here  */
+    /* contact section start here  */
+.contact-us-section {
+    height: 900px;
+    margin-top: 27px;
+}
+    h3.cntct-head-left {
+    font-size: 24px;
+}
+
+.cntct-btn {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .heading-contact h1 {
+    font-size: 40px;
+    margin-bottom: 11px;
+}
+    .right-cntct-sect h1 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .left-cntct-sect .bannerForm-contactus {
+        width: 354px;
+        margin-left: 0;
+        margin-top: 35px;
+    }
+    .left-cntct-sect .form-value h2 {
+        margin: auto;
+    }
+.contact-us-section .form-control {
+    width: 215% !important;
+}
+
+.btn-order-cntct-sect a {
+    padding: 8px 27px;
+    font-size: 12px;
+}
+.btn-whatsapp-cntct-sect a {
+    padding: 6px 11px 9px 14px;
+    font-size: 12px;
+
+}
+.btn-order-cntct-sect::after {
+    margin-left: -47px;
+}
+.left-cntct-sect button.btn-form {
+    height: 38px;
+}
+.msg-btn-greendot-cntct-sect::after {
+    top: -7%;
+}
+    /* contact section end here  */
+    /* footer start here  */
+    .footer-bottom {
+        height: 85px !important;
+    }
+    .footer-clean ul a {
+    font-size: 8px;
+}
+a.phone-btn i {
+    font-size: 12px;
+    margin-right: 4px;
+}
+ul.last-foot li .whatsapp-icon-size i {
+    font-size: 16px;
+}
+footer p {
+    margin-bottom: 30px;
+}
+    /* footer end here  */
+    
+    
+    
+    /*thankyou page start here*/
+.thank-sect {
+    width: 90% !important;
+    padding: 30px !important;
+    margin-top: 110px;
+}
+.thank-head h1 {
+    margin-left: 53px;
+}
+img.thank-icon {
+    width: 32% !important;
+    top: -80% !important;
+    left: 35% !important;
+}
+a.btn-whatsapp.btn-wc {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: block;
+}
+a.btn-chatnow.btn-wc {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: block;
+}
+
+    /*thankyou page end here*/
+    .contact-banner {
+    padding: 54px 0 50px;
+
+}
+.terms-condition {
+    padding: 50px 10px;
+}
+
+
+
+/*float chat , whatsapp btn on footer start here */
+a.float {
+    display: none;
+}
+
+
+
+
+ .fixed-button-bottom {
+    display: flex;
+    /* border: 1px solid; */
+    box-shadow: 0 4px 16px rgb(0 0 0);
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.fixed-button-bottom a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 9px 0 !important;
+    margin: 0 7px;
+    background: #075e54;
+    color: white;
+}
+
+.bg-theme {
+    background-color: #122b54;
+    color: #ffffff;
+}
+
+
+.w-50 {
+    width: 50% !important;
+}
+
+.whatsapp-service {
+    background: #51b27e !important;
+    color: #ffffff;
+}
+a.btn.whatsapp-service i {
+    margin-right: 8px;
+    font-size: 28px;
+}
+a.btn.bg-theme {
+    margin: -1px;
+}
+.p-3 {
+    padding: 1.2rem!important;
+}
+
+/*float chat , whatsapp btn on footer end here */
+
+/*reviews page start here*/
+.review-inner-content .leave-reply .custom-input input {
+    width: 140%;
+}
+.review-inner-content .leave-reply .custom-input textarea {
+    width: 121%;
+}
+.review-inner-content .leave-reply button {
+    width: 200%;
+}
+.popup .thank-you {
+    width: 80%;
+}
+div#thank-you img {
+    width: 35%;
+    margin-top: -11px;
+}
+
+
+
+
+
+/*order page start here */
+div#order-now-section .image-layer-overlay {
+    top: 0% !important;
+}
+.order-now-section {
+    position: relative !important;
+}
+div#order-head {
+    width: 100%;
+}
+.order-form div#order-form-sect {
+    width: 100%;
+}
+
+}
+
+
+/* iphone xr start here  */
+
+@media only screen and (width:414px) {
+    .topnav {
+    display: block;
+}
+.whatsapp-theme {
+    width: 61%;
+}
+    button.btn-form {
+        width: 61%;
+    }
+    .free-extras-white-bg {
+    margin-left: 7px;
+}
+
+a.expert-banner-btn {
+    padding: 10px 21px;
+}
+.whatsapp-theme {
+    width: 49%;
+}
+button.btn-form {
+    width: 49%;
+}
+.or-box {
+    width: 30px;
+    height: 30px;
+}
+a.expert-btn-second-sect.icon-btn {
+    padding: 10px 18px;
+    font-size: 11px;
+}
+.easytostart-section {
+    margin: -41px 0 50px 0;
+}
+.lazy-background-for-color {
+    height: 489px;
+}
+
+.expert-section {
+    margin-bottom: 18px;
+}
+.support-section {
+    height: 1590px !important;
+}
+.cntct-btn {
+    justify-content: space-around;
+}
+.heading-contact h1 {
+    margin-left: 29px;
+}
+.btn-order-cntct-sect a {
+    padding: 8px 35px;
+}
+
+.btn-whatsapp-cntct-sect a {
+    padding: 6px 16px 9px 23px;
+}
+.bannerFormBox-contactus {
+    margin-left: 16px;
+}
+
+.review-inner-content .leave-reply .custom-input input {
+    width: 150%;
+}
+.review-inner-content .leave-reply .custom-input textarea {
+    width: 129%;
+}
+
+
+
+
+}
+
+
+/* iphone xr end here  */
+
+
+/* iphone 12 pro start here  */
+
+@media only screen and (width:390px) {
+    .topnav {
+    display: block;
+}
+a.expert-banner-btn {
+    padding: 10px 15px;
+}
+.second-right-part .whatsapp-theme {
+    width: 50%;
+    padding: 3.5px 26px !important;
+}
+.or-box {
+    width: 30px;
+    height: 30px;
+}
+.fld-btn a {
+    padding: 5px 22px 6px 20px;
+}
+.free-extras-white-bg {
+    margin-left: 0px;
+}
+.in-ten-item.multiple-items {
+    margin-bottom: 100px;
+}
+.heading-contact h1 {
+    margin-left: 15px;
+}
+.expert-section {
+    margin-bottom: 20px;
+}
+.cntct-btn {
+    justify-content: center;
+}
+
+}
+
+
+/* iphone 12 pro end here  */
+
+
+/* iphone 12 pro max start here  */
+
+@media only screen and (min-width:428px) and (max-width:460px) {
+    .topnav {
+    display: block;
+}
+.mobile-menu-btn {
+    padding: 0 3px;
+}
+.mobile-menu-btn .whatsapp-theme {
+    width: 45%;
+    /* margin-top: 13px; */
+    font-size: 12px;
+    margin-left: 0px;
+    padding: 4px 32px !important;
+}
+a.expert-banner-btn {
+    padding: 11px 25px;
+}
+.whatsapp-theme {
+    width: 49% !important;
+    padding: 4px 20px 4px 30px !important;
+}
+
+button.btn-form {
+    width: 50%;
+}
+.or-box {
+    width: 30px;
+    height: 30px;
+}
+    .banner-right-form .form-control {
+        width: 186% !important;
+    }
+    a.expert-btn-second-sect.icon-btn {
+    padding: 10px 23px;
+}
+.free-extras-white-bg {
+    margin-left: 15px;
+}
+.lazy-background-for-color {
+    height: 489px;
+}
+a.button1.btn-primary-yellow.large {
+    padding: 13px 98px !important;
+}
+.expert-section {
+    margin-bottom: 30px;
+}
+.btn-hire a {
+    right: -121px;
+    bottom: 5px;
+}
+.s-rate {
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+.support-section {
+    height: 1590px !important;
+}
+.cntct-btn {
+    justify-content: center;
+
+}
+.heading-contact h1 {
+    margin-left: 37px;
+}
+.left-cntct-sect {
+    margin-left: 21px;
+}
+.footer-clean ul a {
+    font-size: 12px;
+}
+a.phone-btn i {
+    font-size: 14px;
+}
+.review-inner-content .leave-reply .custom-input input {
+    width: 153%;
+}
+.review-inner-content .leave-reply .custom-input textarea {
+    width: 132%;
+}
+
+
+
+
+}
+
+
+/* iphone 12 pro max end here  */
+@media only screen and (min-width:450px) and (max-width:470px) {
+    .bannerForm h3 {
+    width: 100%;
+}
+.banner-right-form .form-control {
+    width: 200% !important;
+}
+  a.expert-banner-btn {
+    padding: 10px 30px !important;
+}  
+  .main-banner-btn .whatsapp-theme {
+    padding: 4px 40px;
+} 
+button.btn-form {
+    width: 50% !important;
+}
+.btn-expert-whatsapp-second-sect a.expert-btn-second-sect.icon-btn {
+    padding: 10px 33px;
+    font-size: 11px;
+}
+.left-cntct-sect .bannerForm-contactus {
+    margin-left: 42px;
+
+}
+.contact-us-section .left-cntct-sect button.btn-form {
+    width: 174px !important;
+}
+}
+
+/* mobile responvice end from here  */
+
+
+/* tablet responsive start here  */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+        html {
+        overflow-x: hidden !important;
+    }
+        .topnav {
+    display: block;
+}
+    .topnav {
+    overflow: hidden;
+    background-color: #171e44;
+    position: relative;
+    /* height: 52px; */
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+    background: white;
+    color: #171e44 !important;
+    border-radius: 9px;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    padding: 4px 13px;
+    right: 17px;
+    top: 17px;
+}
+a.active {
+    padding: 7px 0px 8px 18px;
+}
+.topnav a img {
+    width: 46%;
+    /* background: white; */
+    border-radius: 15px;
+    padding: 4px 9px;
+}
+.mobile-menu-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.mobile-menu-btn .msg-btn-greendot {
+    width: 30%;
+    margin-right: 11px;
+}
+.mobile-menu-btn a.expert-banner-btn {
+    font-size: 13px;
+    padding: 10px 60px;
+}
+.mobile-menu-btn .whatsapp-theme {
+    width: 30%;
+    /* margin-top: 13px; */
+    font-size: 14px;
+    margin-left: 0px;
+    padding: 4px 27px !important;
+}  
+ div#myLinks a i {
+    margin-right: 8px;
+    margin-left: 6px;
+}     
+.dropdown-content {
+    display: none;
+    position: unset;
+    margin-left: 27px;
+}    
+    
+    
+    .fixed-header {
+    display: none;
+}
+    .header {
+        height: 140px;
+    }
+    .logo {
+        width: 30%;
+    }
+    .head-btn {
+        width: 60%;
+    }
+    .head-reviews {
+        width: 33%;
+    }
+    .review-btn i {
+        margin-right: 1px;
+    }
+    .head-btn .phone-btn {
+        padding: 9px 10px 9px 5px;
+    }
+    .head-btn .phone-btn i {
+        margin-right: 0px;
+    }
+    .head-btn .whatsapp-btn {
+        padding: 6px 4px 6px 1px;
+        margin-right: 0px;
+    }
+    
+    
+    
+    .banner {
+    margin-top: -31px;
+}
+.banner-left-heading {
+    width: 53%;
+}
+.banner-left-heading h1 {
+    font-size: 31px;
+    line-height: 58px;
+}
+.type span {
+    height: 3.2em;
+    width: 100%;
+    overflow: hidden;
+    animation: none;
+}
+a.expert-banner-btn {
+    font-size: 12px;
+    padding: 10px 11px;
+}
+a.expert-banner-btn i {
+    font-size: 15px;
+}
+.whatsapp-theme {
+    font-size: 13px;
+    padding: 5px 19px;
+}
+.banner-right-form {
+    width: 45%;
+    margin-top: 31px;
+    margin-right: 12px;
+}
+.banner-right-form .form-control {
+    width: 152%;
+}
+button.btn-form {
+    padding: 6px 10px 8px 0px;
+    width: 48%;
+}
+.fld-btn a {
+    padding: 5px 18px 5px 20px;
+    margin: 0 0px;
+    font-size: 13px;
+}
+.or-box {
+    width: 30px;
+    height: 28px;
+    top: 5px;
+}
+    .main-banner-btn {
+        margin: 45px 0 11px 0;
+    }
+    .second-right-part {
+    margin-top: 0px;
+    width: 100%;
+    padding: 0 14px;
+}
+.second-left-part {
+    display: none;
+}
+.second-right-part .whatsapp-theme {
+    background-color: #51b27e;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600 !important;
+    margin-left: 6px;
+    line-height: 26px;
+    padding: 7px 43px;
+    border-radius: 5px;
+}
+    .second-right-part h1 {
+        font-size: 30px;
+    }
+    .easytostart-left-part {
+    display: none;
+}
+.easytostart-right-part {
+    display: flex;
+    justify-content: center;
+}
+.easytostart-right-part img {
+    width: 50%;
+}
+.subjects-slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subjects-slider .col-md-3 {
+    width: 50%;
+}
+.subjects {
+    width: 100%;
+}
+.free-extras-white-bg {
+    width: 320px;
+    right: -169px;
+}
+.guarantees-block {
+    width: 58%;
+}
+.main-guarantees-block .part-free-extras {
+    position: relative;
+    width: 18%;
+}
+a.button1.btn-primary-yellow.large {
+    padding: 13px 66px;
+}
+.line-extras-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.line-extras-buttons img {
+    width: 48%;
+}
+
+.col-md-4.img-id {
+    width: 34%;
+}
+.btn-hire a {
+    right: -100px;
+    bottom: 8%;
+}
+.s-rate {
+    text-align: center;
+    width: 45% !important;
+    margin-bottom: -7px;
+    margin-top: 7px;
+}
+.slick-prev {
+    left: -21px !important;
+}
+.slick-next {
+    right: -20px !important;
+}
+.slick-prev, .slick-next {
+    width: 35px !important;
+    height: 35px !important;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 0.9 !important;
+}
+.support-title p {
+    font-size: 70px;
+    line-height: 77px;
+}
+.support-title .subtitle {
+    width: 703px;
+    margin: 78px auto 0;
+}
+.icon img {
+    width: 75%;
+    margin-top: 0px;
+    margin-left: 17px;
+}
+.support-container__heading {
+    padding: 0px 0 30px 0;
+
+}
+.support-section {
+    height: 998px;
+}
+.heading-contact h1 {
+    margin-left: 127px;
+}
+.contact-us-section {
+    height: 930px;
+}
+.left-cntct-sect {
+
+    margin-top: 32px;
+}
+.left-cntct-sect .bannerForm-contactus {
+    margin-left: 142px;
+}
+.heading-contact h1 {
+    margin-left: 127px;
+    margin-bottom: 0;
+}
+.bannerForm-contactus .form-control {
+
+    width: 265% !important;
+
+}
+.footer-clean ul a {
+    font-size: 13px;
+}
+a.phone-btn i {
+    font-size: 14px;
+    margin-right: 4px;
+}
+ul.last-foot li .whatsapp-icon-size i {
+
+    font-size: 17px;
+}
+
+.thank-sect {
+    margin-top: 90px;
+}
+
+img.thank-icon {
+    width: 25%;
+    top: -101%;
+}
+img.light-image {
+    width: 225px;
+}
+
+
+/*order page start here */
+div#order-now-section .image-layer-overlay {
+    top: 0% !important;
+}
+.order-now-section {
+    position: relative !important;
+}
+div#order-head {
+    width: 100%;
+}
+.order-form div#order-form-sect {
+    width: 100%;
+}
+
+
+
+}
+
+
+/* tablet responsive end here  */

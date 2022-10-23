@@ -1,0 +1,302 @@
+@media only screen and (min-width:300px) and (max-width:767px) {
+    html {
+        overflow-x: hidden !important;
+    }
+
+    body {
+        overflow-x: hidden !important;
+    }
+    .btn-call-whatsapp-left-side {
+        display: none;
+    }
+/* header start here  */
+    div#header {
+        display: none;
+    }
+
+/* mobile header start here  */
+    .topnav {
+        display: block;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #001e36;
+        box-shadow: 0px 8px 16px 0px rgb(3 3 6 / 47%);
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        /* height: 52px; */
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .topnav a {
+        color: white !important;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    div#myLinks a i {
+        margin-right: 8px;
+        margin-left: 6px;
+    }
+    .topnav a.icon {
+        background: white;
+        color: #171e44 !important;
+        box-shadow: 0px 0px 10px 2px #6e808f;
+        border-radius: 9px;
+        display: block;
+        position: absolute;
+        font-size: 25px;
+        padding: 2px 11px;
+        right: 15px;
+        top: 13px;
+    }
+    a.active {
+        padding: 4px 0px 6px 12px;
+        /* padding: 0; */
+    }
+    .topnav a img {
+        width: 50%;
+        /* background: white; */
+        border-radius: 15px;
+        /* padding: 4px 9px; */
+    }
+    .mobile-menu-phone-whatsapp-btn {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .mobile-menu-phone-whatsapp-btn a i {
+        margin-right: 8px;
+        animation: shake 4.5s;
+        animation-iteration-count: infinite;
+    }
+    a.mobile-bar-whatsapp i {
+        font-size: 20px;
+    }
+/* mobile header end here  */
+
+
+/* header end here  */
+
+/* banner start here  */
+
+/* .banner-sect{
+    background-image: url(../images/1119.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 23% 77%, 50% 50%, 83% 100%;
+} */
+div#banner-id {
+    background-image: url('../images/mobile-pic.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 40% -21%, 50% 50%, 83% 100%;
+    margin: 127px 0;
+    height: 513px;
+}
+.banner-section .container-fluid {
+    position: relative;
+}
+.banner-section .image-layer-overlay {
+    position: absolute;
+    top: -6.6%;
+    left: 0;
+    width: 100%;
+    height: 112%;
+    content: "";
+    background: #001e3685;
+    /* background: rgba(var(--moniz-black-rgb, 30, 30, 34), 0.5); */
+    /* z-index: 2; */
+}
+
+.banner-header {
+    display: none;
+}
+.banner-sect {
+    color: white;
+    position: relative;
+}
+.banner-left {
+    width: 100%;
+}
+.banner-left h1 {
+    font-size: 30px;
+}
+.banner-left h6 {
+    font-size: 14px;
+}
+.banner-left p {
+    font-size: 13px;
+}
+.btn-resume {
+    width: 60%;
+}
+/* banner end here  */
+
+/* about section start here  */
+.about-left {
+    width: 100%;
+}
+.about-right {
+    width: 100%;
+    margin-top: 40px;
+}
+.about-right-head-exp-edu ul li button {
+    padding: 12px 43px;
+    font-size: 17px;
+}
+.about-right-exp-edu {
+    width: 100%;
+    padding: 0 12px;
+}
+/* about section end here  */
+
+/* Skills section start here  */
+.skills-sect h2 {
+    width: 100%;
+}
+.skills-set {
+    width: 100%;
+}
+
+/* Skills section end here  */
+
+
+/* senior section start here  */
+.senior-box {
+    width: 33%;
+    overflow-y: hidden;
+}
+.senior-box h3 a {
+    font-size: 12px;
+    bottom: 18%;
+    left: -50%;
+    width: 80%;
+    height: 16%;
+    padding: 6px 0;
+}
+.senior-box h3 a i {
+    margin-left: 11px;
+}
+/* senior section end here  */
+
+
+/* certification start here  */
+
+.certi-box p {
+    font-size: 15px;
+    height: 32%;
+    padding: 8px 10px;
+    bottom: -16%;
+    border-radius: 11px;
+}
+
+/* certification end here  */
+
+
+
+    /* contact section start here  */
+    .contact-sect .cntct-left {
+        width: 100%;
+    }
+
+    .contact-sect .cntct-right {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contact-sect .cntct-left .cntct-btn {
+        padding: 7px 0;
+        width: 49%;
+    }
+    .contact-sect .cntct-left a {
+        font-size: 14px !important;
+    }
+
+    .cntct-right button {
+        border-radius: 10px 10px 10px 10px;
+        height: 37px;
+        width: 48%;
+        font-size: 14px;
+    }
+
+    /* contact section end here  */
+
+
+    /* footer section start here  */
+    .foot-left-side {
+        width: 100%;
+    }
+
+    .foot-right-side {
+        width: 100%;
+    }
+
+    .quick-links {
+        width: 48%;
+    }
+
+    .contact-info {
+        width: 52%;
+    }
+
+    .foot-right-side h2 {
+        font-size: 21px;
+    }
+
+    .foot-right-side ul li {
+        font-size: 14px;
+    }
+
+    /* footer section end here  */
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    html {
+        overflow-x: hidden !important;
+    }
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* contact section css start here  */
+    .contact-sect .cntct-left a {
+        width: 40%;
+    }
+
+    /* contact section css end here  */
+
+
+    /* footer section start here  */
+    .foot-left-side {
+        width: 100%;
+    }
+
+    .foot-right-side {
+        width: 100%;
+    }
+
+    .quick-links {
+        width: 48%;
+    }
+
+    .contact-info {
+        width: 52%;
+    }
+
+    .foot-right-side h2 {
+        font-size: 21px;
+    }
+
+    .foot-right-side ul li {
+        font-size: 14px;
+    }
+
+    /* footer section end here  */
+
+}
