@@ -163,6 +163,13 @@ div#banner-id {
 
 /* Skills section end here  */
 
+/* project section start here  */
+.project-layer a {
+    padding: 44px 0px;
+    width: calc(96% - 30px);
+    height: calc(109% - 30px);
+}
+/* project section end here  */
 
 /* senior section start here  */
 .senior-box {
