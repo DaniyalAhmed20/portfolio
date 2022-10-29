@@ -483,30 +483,37 @@ body::-webkit-scrollbar-thumb {
 .about-right-head-exp-edu {
     border: 2px solid #0d4b7c;
     border-radius: 10px;
+    display: flex;
+    justify-content: stretch;
 }
 
-.about-right-head-exp-edu ul li {
-    display: inline-block;
+.abt-btn-edu-exp {
+    width: 50%;
+    text-align: center;
 }
-
-.about-right-head-exp-edu ul li button {
+.abt-btn-edu-exp button {
     background-color: white;
     border: none;
-    padding: 12px 89px;
+    width: 100%;
+    padding: 12px 0;
     border-radius: 6px;
     font-size: 18px;
 }
 
-.about-right-head-exp-edu ul li button.btn-experi.active {
+.abt-btn-edu-exp button.btn-experi.active {
     color: white;
+    width: 100%;
     background-color: #001e36;
 }
 
-.about-right-head-exp-edu ul li button.btn-educa.active {
+
+.abt-btn-edu-exp button.btn-educa.active {
     color: white;
+    width: 100%;
     background-color: #001e36;
     margin-left: 1px;
 }
+
 
 
 .about-right-exp-edu {
