@@ -378,6 +378,15 @@
     }
 
     /* banner header end here  */
+    /* about section start here */
+
+    .about-right-exp-edu {
+        width: 100%;
+        padding: 0 13px;
+    }
+
+    /* about section end here */
+
     /* project section start here */
 
     .project-layer a {
@@ -434,6 +443,10 @@
         width: 40%;
     }
 
+    .contact-sect .cntct-left .cntct-btn {
+        width: 46%;
+    }
+
     /* contact section css end here  */
 
 
@@ -467,8 +480,22 @@
     }
 
     /* footer section end here  */
+
+    .both-btn-cl-wp-lft-sde {
+        position: relative;
+        height: 120px;
+    }
+
     .btn-call-whatsapp-left-side {
         width: 29%;
+    }
+
+    .cal-whtsp-btn {
+        padding: 11px 13px;
+    }
+
+    .cal-whtsp-btn a i {
+        height: 20px;
     }
 
 }
