@@ -201,6 +201,11 @@
         overflow-y: hidden;
     }
 
+    .senior-box:hover {
+        border-radius: 14px;
+        height: 114px;
+    }
+
     .senior-box h3 a {
         font-size: 12px;
         bottom: 18%;
