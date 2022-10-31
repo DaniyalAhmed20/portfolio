@@ -78,7 +78,173 @@ function education() {
 }
 // about section end here 
 
-image.png
+
+
+// skills bar script start here 
+var i = 0;
+
+if (i == 0) {
+    i = 1;
+    // html 
+    var html = document.getElementById("html-bar");
+    var width_h = 1;
+    var id = setInterval(frame1, 10);
+    function frame1() {
+        if (width_h >= 95) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_h++;
+            html.style.width = width_h + "%";
+        }
+    }
+
+    // css 
+    var css = document.getElementById("css-bar");
+    var width_c = 1;
+    var id = setInterval(frame2, 10);
+    function frame2() {
+        if (width_c >= 85) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_c++;
+            css.style.width = width_c + "%";
+        }
+    }
+
+
+
+    //  js 
+    var js = document.getElementById("js-bar");
+    var width_j = 1;
+    var id = setInterval(frame3, 10);
+    function frame3() {
+        if (width_j >= 85) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_j++;
+            js.style.width = width_j + "%";
+        }
+    }
+
+
+    // psd to html
+    var psd = document.getElementById("psd-bar");
+    var width_psd = 1;
+    var id = setInterval(frame4, 10);
+    function frame4() {
+        if (width_psd >= 95) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_psd++;
+            psd.style.width = width_psd + "%";
+        }
+    }
+    // wordpress
+    var wordpress = document.getElementById("wordpress-bar");
+    var width_wordpress = 1;
+    var id = setInterval(frame7, 10);
+    function frame7() {
+        if (width_wordpress >= 70) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_wordpress++;
+            wordpress.style.width = width_wordpress + "%";
+        }
+    }
+
+}
+
+
+
+var i = 0;
+
+if (i == 0) {
+    i = 1;
+    // python 
+    var python = document.getElementById("python-bar");
+    var width_py = 1;
+    var id = setInterval(frame1, 10);
+    function frame1() {
+        if (width_py >= 90) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_py++;
+            python.style.width = width_py + "%";
+        }
+    }
+
+    // java 
+    var java = document.getElementById("java-bar");
+    var width_ja = 1;
+    var id = setInterval(frame2, 10);
+    function frame2() {
+        if (width_ja >= 80) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_ja++;
+            java.style.width = width_ja + "%";
+        }
+    }
+
+    // oop
+    var oop = document.getElementById("oop-bar");
+    var width_oop = 1;
+    var id = setInterval(frame4, 10);
+    function frame4() {
+        if (width_oop >= 80) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_oop++;
+            oop.style.width = width_oop + "%";
+        }
+    }
+
+    // php
+    var php = document.getElementById("php-bar");
+    var width_php = 1;
+    var id = setInterval(frame5, 10);
+    function frame5() {
+        if (width_php >= 60) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_php++;
+            php.style.width = width_php + "%";
+        }
+    }
+
+    //  sql
+    var sql = document.getElementById("sql-bar");
+    var width_sql = 10;
+    var id = setInterval(frame6, 10);
+    function frame6() {
+        if (width_sql >= 70) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width_sql++;
+            sql.style.width = width_sql + "%";
+        }
+    }
+
+
+
+}
+
+
+// skills bar script end here 
+
+
+
+
 
 
 $(document).ready(function () {
