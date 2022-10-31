@@ -67,7 +67,7 @@ function education() {
     document.getElementById("aree-head6-third").innerHTML = "Ghazali Public School";
 
 
-    document.getElementById("aree-head5-fourth").innerHTML = "Enter";
+    document.getElementById("aree-head5-fourth").innerHTML = "Inter";
     document.getElementById("aree-para-fiveth").innerHTML = "2018 - 2019";
     document.getElementById("aree-head6-sixth").innerHTML = "GBDC BufferZone";
 
