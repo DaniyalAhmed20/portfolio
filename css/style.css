@@ -1,7 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-html, body {
+
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -163,6 +165,7 @@ body::-webkit-scrollbar-thumb {
     bottom: 14%;
     right: 5%;
 }
+
 .home-arrow-relative {
     position: relative;
 }
@@ -182,6 +185,7 @@ body::-webkit-scrollbar-thumb {
     animation: shake 4.5s;
     animation-iteration-count: infinite;
 }
+
 /* home arrow end here  */
 
 
@@ -276,6 +280,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: flex-start;
     align-items: center;
 }
+
 /* .banner-sect{
     background-image: url(../images/1119.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -323,6 +328,7 @@ body::-webkit-scrollbar-thumb {
 
 .banner-left p {
     font-size: 17px;
+    color: black;
 }
 
 .btn-resume {
@@ -491,6 +497,7 @@ body::-webkit-scrollbar-thumb {
     width: 50%;
     text-align: center;
 }
+
 .abt-btn-edu-exp button {
     background-color: white;
     border: none;
@@ -691,12 +698,14 @@ div#php-bar {
     font-weight: 600;
     margin-bottom: 35px;
 }
+
 .project-section p {
     text-align: center;
     width: 75%;
     margin: auto;
     margin-bottom: 30px;
 }
+
 .project-sect {
     display: flex;
     justify-content: space-between;
@@ -733,6 +742,7 @@ div#php-bar {
     content: "View More";
     background: #001e3600;
 }
+
 /* .project-layer:before, .project-layer:after {
     width: calc(94% - 30px);
     height: calc(100% - 30px);
@@ -763,7 +773,9 @@ div#php-bar {
     background: #001e3685;
 
 }
-.project-layer a {transform: scale(1);
+
+.project-layer a {
+    transform: scale(1);
     color: rgba(255, 255, 255, 0);
     font-size: 25px;
     border: 1px solid;
@@ -776,6 +788,7 @@ div#php-bar {
     height: calc(100% - 30px);
     transform: scale(0);
 }
+
 .project-layer:hover a {
     color: white !important;
     -webkit-transition: 0.5s;
@@ -787,6 +800,7 @@ div#php-bar {
     -ms-transform: scale(0);
     transform: scale(1);
 }
+
 /* project section end here  */
 
 
@@ -803,12 +817,14 @@ div#php-bar {
     font-weight: 600;
     margin-bottom: 35px;
 }
+
 .Senior-section p {
     text-align: center;
     width: 75%;
     margin: auto;
     margin-bottom: 30px;
 }
+
 .senior-sect {
     display: flex;
     justify-content: space-between;
@@ -831,6 +847,7 @@ div#php-bar {
     transform: perspective(1px) scale(1.03);
     box-shadow: 0 0px 50px 0 rgb(0 0 50 / 58%);
 }
+
 .senior-box img {
     width: 100%;
     border-radius: 15px;
@@ -842,13 +859,13 @@ div#php-bar {
     width: 100%;
     border-radius: 15px;
     opacity: .7; */
-    /* transform: perspective(1px) scale(1.03);
+/* transform: perspective(1px) scale(1.03);
     box-shadow: 0 12px 20px 0 rgb(0 0 50 / 12%);
     background: #9f191900;
     border-radius: 10px;
     height: 329px;
     overflow-y: hidden; */
-    /* transform: perspective(1px) scale(1.03);
+/* transform: perspective(1px) scale(1.03);
     box-shadow: 0 0px 50px 0 rgb(0 0 50 / 58%); */
 /* } */
 
@@ -900,12 +917,14 @@ div#php-bar {
     font-weight: 600;
     margin-bottom: 35px;
 }
+
 .certification-section p {
     text-align: center;
     width: 75%;
     margin: auto;
     margin-bottom: 30px;
 }
+
 .certi-sect {
     display: flex;
     justify-content: space-between;

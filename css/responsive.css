@@ -6,18 +6,21 @@
     body {
         overflow-x: hidden !important;
     }
+
     .btn-call-whatsapp-left-side {
         display: none;
     }
-/* header start here  */
+
+    /* header start here  */
     div#header {
         display: none;
     }
 
-/* mobile header start here  */
+    /* mobile header start here  */
     .topnav {
         display: block;
     }
+
     .topnav {
         overflow: hidden;
         background-color: #001e36;
@@ -27,9 +30,11 @@
         z-index: 999;
         /* height: 52px; */
     }
+
     .topnav #myLinks {
         display: none;
     }
+
     .topnav a {
         color: white !important;
         padding: 14px 16px;
@@ -37,10 +42,12 @@
         font-size: 17px;
         display: block;
     }
+
     div#myLinks a i {
         margin-right: 8px;
         margin-left: 6px;
     }
+
     .topnav a.icon {
         background: white;
         color: #171e44 !important;
@@ -53,151 +60,173 @@
         right: 15px;
         top: 13px;
     }
+
     a.active {
         padding: 4px 0px 6px 12px;
         /* padding: 0; */
     }
+
     .topnav a img {
         width: 50%;
         /* background: white; */
         border-radius: 15px;
         /* padding: 4px 9px; */
     }
+
     .mobile-menu-phone-whatsapp-btn {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
+
     .mobile-menu-phone-whatsapp-btn a i {
         margin-right: 8px;
         animation: shake 4.5s;
         animation-iteration-count: infinite;
     }
+
     a.mobile-bar-whatsapp i {
         font-size: 20px;
     }
-/* mobile header end here  */
+
+    /* mobile header end here  */
 
 
-/* header end here  */
+    /* header end here  */
 
-/* banner start here  */
+    /* banner start here  */
 
-/* .banner-sect{
+    /* .banner-sect{
     background-image: url(../images/1119.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 23% 77%, 50% 50%, 83% 100%;
 } */
-div#banner-id {
-    background-image: url('../images/mobile-pic.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 40% -21%, 50% 50%, 83% 100%;
-    margin: 127px 0;
-    height: 513px;
-}
-.banner-section .container-fluid {
-    position: relative;
-}
-.banner-section .image-layer-overlay {
-    position: absolute;
-    top: -6.6%;
-    left: 0;
-    width: 100%;
-    height: 112%;
-    content: "";
-    background: #001e3685;
-    /* background: rgba(var(--moniz-black-rgb, 30, 30, 34), 0.5); */
-    /* z-index: 2; */
-}
+    div#banner-id {
+        background-image: url('../images/mobile-pic.png');
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 40% -21%, 50% 50%, 83% 100%;
+        margin: 127px 0;
+        height: 513px;
+    }
 
-.banner-header {
-    display: none;
-}
-.banner-sect {
-    color: white;
-    position: relative;
-}
-.banner-left {
-    width: 100%;
-}
-.banner-left h1 {
-    font-size: 30px;
-}
-.banner-left h6 {
-    font-size: 14px;
-}
-.banner-left p {
-    font-size: 13px;
-}
-.btn-resume {
-    width: 60%;
-}
-/* banner end here  */
+    .banner-section .container-fluid {
+        position: relative;
+    }
 
-/* about section start here  */
-.about-left {
-    width: 100%;
-}
-.about-right {
-    width: 100%;
-    margin-top: 40px;
-}
+    .banner-section .image-layer-overlay {
+        position: absolute;
+        top: -6.6%;
+        left: 0;
+        width: 100%;
+        height: 112%;
+        content: "";
+        background: #001e3685;
+        /* background: rgba(var(--moniz-black-rgb, 30, 30, 34), 0.5); */
+        /* z-index: 2; */
+    }
 
-.about-right-exp-edu {
-    width: 100%;
-    padding: 0 12px;
-}
-/* about section end here  */
+    .banner-header {
+        display: none;
+    }
 
-/* Skills section start here  */
-.skills-sect h2 {
-    width: 100%;
-}
-.skills-set {
-    width: 100%;
-}
+    .banner-sect {
+        color: white;
+        position: relative;
+    }
 
-/* Skills section end here  */
+    .banner-left {
+        width: 100%;
+    }
 
-/* project section start here  */
-.project-layer a {
-    padding: 44px 0px;
-    width: calc(96% - 30px);
-    height: calc(109% - 30px);
-}
-/* project section end here  */
+    .banner-left h1 {
+        font-size: 30px;
+    }
 
-/* senior section start here  */
-.senior-box {
-    width: 33%;
-    overflow-y: hidden;
-}
-.senior-box h3 a {
-    font-size: 12px;
-    bottom: 18%;
-    left: -50%;
-    width: 80%;
-    height: 16%;
-    padding: 6px 0;
-}
-.senior-box h3 a i {
-    margin-left: 11px;
-}
-/* senior section end here  */
+    .banner-left h6 {
+        font-size: 14px;
+    }
+
+    .banner-left p {
+        font-size: 13px;
+    }
+
+    .btn-resume {
+        width: 60%;
+    }
+
+    /* banner end here  */
+
+    /* about section start here  */
+    .about-left {
+        width: 100%;
+    }
+
+    .about-right {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .about-right-exp-edu {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    /* about section end here  */
+
+    /* Skills section start here  */
+    .skills-sect h2 {
+        width: 100%;
+    }
+
+    .skills-set {
+        width: 100%;
+    }
+
+    /* Skills section end here  */
+
+    /* project section start here  */
+    .project-layer a {
+        padding: 44px 0px;
+        width: calc(96% - 30px);
+        height: calc(109% - 30px);
+    }
+
+    /* project section end here  */
+
+    /* senior section start here  */
+    .senior-box {
+        width: 33%;
+        overflow-y: hidden;
+    }
+
+    .senior-box h3 a {
+        font-size: 12px;
+        bottom: 18%;
+        left: -50%;
+        width: 80%;
+        height: 16%;
+        padding: 6px 0;
+    }
+
+    .senior-box h3 a i {
+        margin-left: 11px;
+    }
+
+    /* senior section end here  */
 
 
-/* certification start here  */
+    /* certification start here  */
 
-.certi-box p {
-    font-size: 15px;
-    height: 32%;
-    padding: 8px 10px;
-    bottom: -16%;
-    border-radius: 11px;
-}
+    .certi-box p {
+        font-size: 15px;
+        height: 32%;
+        padding: 8px 10px;
+        bottom: -16%;
+        border-radius: 11px;
+    }
 
-/* certification end here  */
+    /* certification end here  */
 
 
 
@@ -210,10 +239,12 @@ div#banner-id {
         width: 100%;
         margin-top: 30px;
     }
+
     .contact-sect .cntct-left .cntct-btn {
         padding: 7px 0;
         width: 49%;
     }
+
     .contact-sect .cntct-left a {
         font-size: 14px !important;
     }
@@ -268,6 +299,136 @@ div#banner-id {
         overflow-x: hidden !important;
     }
 
+
+    /* header start here */
+    .head-logo {
+        width: 22%;
+    }
+
+    .head-logo img {
+        width: 100%;
+    }
+
+    .head-nav {
+        width: 74%;
+    }
+
+    .head-nav ul li {
+        margin: 0 10px;
+        font-size: 17px;
+    }
+
+    /* header end here */
+
+    /* banner header start here  */
+    .banner-header {
+        width: 100%;
+    }
+
+    .logo {
+        width: 22%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .bh-nav {
+        width: 76%;
+    }
+
+    .bh-nav ul li {
+        margin: 0 11px;
+        font-size: 17px;
+    }
+
+    .banner-section {
+        background-size: contain;
+        height: 530px;
+    }
+
+
+
+    .banner-left {
+        width: 65%;
+    }
+
+    .banner-left h1 {
+        font-size: 42px;
+    }
+
+    .banner-left h6 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        width: 89%;
+    }
+
+    .banner-left p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .btn-resume {
+        width: 45%;
+        margin-top: 30px;
+    }
+
+    .social-icon {
+        margin-top: 60px;
+    }
+
+    /* banner header end here  */
+    /* project section start here */
+
+    .project-layer a {
+        padding: 44px 0px;
+        width: calc(96% - 30px);
+        height: calc(109% - 30px);
+    }
+
+    /* project section end here */
+
+    /* senior section start here */
+    .senior-box:hover {
+        height: 230px;
+    }
+
+    .senior-box h3 a {
+        bottom: 13%;
+        left: -55%;
+        width: 76%;
+        height: 17%;
+        padding: 8px 0px;
+    }
+
+    .senior-box h3 a i {
+        margin-left: 50px;
+    }
+
+    /* senior section end here */
+
+    /* certification section start here  */
+    .certi-box p {
+        font-size: 17px;
+        bottom: -34%;
+        width: 100%;
+        height: 19%;
+        padding: 8px 0;
+    }
+
+    .certi-box:hover p {
+        bottom: -15%;
+    }
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    /* certification section end here  */
+
+
+
     /* contact section css start here  */
     .contact-sect .cntct-left a {
         width: 40%;
@@ -277,6 +438,10 @@ div#banner-id {
 
 
     /* footer section start here  */
+    .foot-left-side img {
+        width: 45%;
+    }
+
     .foot-left-side {
         width: 100%;
     }
@@ -302,5 +467,8 @@ div#banner-id {
     }
 
     /* footer section end here  */
+    .btn-call-whatsapp-left-side {
+        width: 29%;
+    }
 
 }
